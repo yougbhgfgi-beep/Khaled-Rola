@@ -47,7 +47,7 @@ export default function PhotoAlbum() {
         >
           <div className="aspect-[4/5] overflow-hidden">
             <img
-              src="/images/hero.jpg"
+              src="images/hero.jpg"
               alt="Khaled و Rola"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
