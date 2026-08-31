@@ -62,12 +62,12 @@ export default function Login() {
 
         {/* Title */}
         <h1 className="font-amiri text-3xl md:text-4xl font-bold text-dark-plum text-center mb-2">
-          أهلاً بك في رحلتنا
+          أهلاً بيكي يا رولا في رحلتنا
         </h1>
         
         {/* Subtitle */}
         <p className="font-cairo text-dusty-mauve text-center mb-8 text-sm">
-          أدخل كلمة السر لاكتشاف عالمنا الرومانسي
+          ادخلي كلمة السر عشان تكتشفي عالمنا الرومانسي يا حبيبتي
         </p>
 
         {/* Gold line */}
@@ -84,7 +84,7 @@ export default function Login() {
                 setPassword(e.target.value)
                 setError(false)
               }}
-              placeholder="اكتب كلمة السر هنا..."
+              placeholder="اكتبي كلمة السر يا حبيبتي..."
               className={`w-full pr-12 pl-4 py-3.5 rounded-xl border-2 bg-white/80 font-cairo text-dark-plum placeholder:text-dusty-mauve/60 focus:outline-none focus:ring-2 transition-all ${
                 error 
                   ? 'border-red-400 focus:ring-red-400/30' 
@@ -95,20 +95,20 @@ export default function Login() {
 
           {error && (
             <p className="font-cairo text-red-500 text-sm text-center -mt-2">
-              كلمة السر غير صحيحة، حاول مرة أخرى
+              الكلمة غير صحيحة يا رولا، جرّبي تاني ❤️
             </p>
           )}
 
           {/* Hint */}
           <p className="font-cairo text-xs text-dusty-mauve/60 text-center">
-            تلميح: الحب الحقيقي مش محتاج كلمة سر ❤️
+            تلميح: الحب الحقيقي مش محتاج كلمة سر، وانتِ كلمتك السر ❤️
           </p>
 
           <button
             type="submit"
             className="w-full py-3.5 rounded-xl bg-gradient-to-r from-deep-rose to-[#D4687A] text-white font-cairo font-semibold text-lg shadow-romantic hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
           >
-            افتح الظرف
+            افتحي الظرف يا حبيبتي
           </button>
         </form>
 
